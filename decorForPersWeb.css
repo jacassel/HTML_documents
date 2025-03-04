@@ -1,0 +1,14 @@
+#email {
+    display: block;
+    margin-bottom: 10vh;
+}
+
+#phone {
+    display: none; /* Hidden by default */
+}
+
+@media (max-width: 768px) { /* Common breakpoint for phones */
+    #phone {
+        display: inline;
+    }
+}
