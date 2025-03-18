@@ -1,7 +1,9 @@
-#email {
+.contactLink {
     display: block;
-    margin-bottom: 10vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 
 #phone {
     display: none; /* Hidden by default */
@@ -13,19 +15,50 @@
     }
 }
 
+#thesis {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 30px;
+}
+
+#titleName {
+    color:orange;
+    font-size: 30px;
+}
+
+#introDescription {
+    font-size: large;
+}
+
 #projectGrid {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    margin-bottom: 30px;
 }
 
 #projectGrid > div {
-    color: blue;
     text-align: center;
     border: 3px solid orange;
     padding: 20px;
 }
 
-#title {
-    grid-column: span 3;
+.projectDescription {
+    text-align: left;
+}
+
+#titleProject {
+    grid-column: span 2;
+    color: black;
+}
+
+#threeReasonsGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin-bottom: 30px;
+}
+
+#myStoryText {
+    text-indent: 40px;
 }

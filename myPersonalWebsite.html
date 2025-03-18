@@ -10,29 +10,150 @@
     <body>
         <section id="thesis">
             <div class="headerParagraph">
-                <h1>Joel Cassel - Software Engineer</h1>
-                <p>
+                <h1 id="titleName">Hi, my name is Joel Cassel, I am a web developer.</h1>
+                <p id="introDescription">
                     I am a self motivated software engineer who is doing everything that I can do build my skills. <br>
-                    I am built this website to showcase my skills in web development as well as my projects that I <br>
+                    I am built this website to showcase my current abilities in web development as well as my projects that I <br>
                     am most proud of. I love how coding is all about creative problem solving and seeking the most <br>
                     elegant and efficient solution to any problem. I am seeking to grow in my experience as a <br>
                     software developer and welcome you and your company to join me in this journey... <br>
                 </p>
                 <a href="mailto:jacassel316@gmail.com" class="contactLink" id="email"><strong> Get in touch by email: jacassel316@gmail.com </strong></a>
+                <a href="https://www.linkedin.com/in/joel-cassel-699609276/" target="_blank" rel="noopener noreferrer" class="contactLink" id="LinkedIn">
+                    <strong> Get in touch on LinkedIn </strong></a>
                 <a href="tel:+12676347465" class="contactLink" id="phone"><strong> Get in touch by phone: 267-634-7465</strong></a>
             </div>
             <div class="profileImage">
-                <img src="image/profilePicture.jpg" alt="Joel Cassel" width="500">
+                <img src="image/profilePicture.jpg" alt="Joel Cassel" width="400">
             </div>
         </section>
         <section id="projectGrid">
-            <div id="title">My Projects</div>
-            <div>Project 1</div>
-            <div>Project 2</div>
-            <div>Project 3</div>
-            <div>Project 4</div>
-            <div>Project 5</div>
-            <div>Project 6</div>
+            <div id="titleProject"><h2>My Projects</h2></div>
+            <div class="projectContainer">
+                <h3 class="projectHeader">The Forbidden Dungeon - C++</h3>
+                <p class="projectDescription">
+                    <strong>Description: </strong> 
+                    I built this project in C++ in Visual Studio 2022 as a passion project. <br>
+                    It is currently a basic proof of concept with one monster to fight and <br>
+                    a successful game loop. I have aspirations to add more monsters and <br>
+                    perhaps bosses. I also would like to add a map. The game is a text based <br>
+                    RPG game which is a unique niche. I do not plan on going into game developent, <br>
+                    however I used this to demonstrate my knowledge of Object Oriented Programming.
+                </p>
+                <a href="https://github.com/jacassel/dungeonCrawler" target="_blank" rel="noopener noreferrer" class="projectLink" id="RPG"><strong>See Code on GitHub</strong></a>
+            </div>
+            <div class="projectContainer">
+                <h3 class="projectHeader">School Roster Experience - C++</h3>
+                <p class="projectDescription">
+                    <strong>Description: </strong>
+                    I built this project in C++ in Visual Studio 2022 as a project for my <br>
+                    Scripting and Programming class at WGU. I had a lot of fun making this <br>
+                    project and it caused many lightbulbs to go off in my brain in understanding <br>
+                    Object Oriented Programming the concept of a class finally made sense to me. <br>
+                    The heart of encapsulation with the need for class variables to be private <br>
+                    to that class made sense. It gave me the skills I needed to be able to build <br>
+                    <b>The Forbidden Dungeon.</b>
+                </p>
+                <a href="https://github.com/jacassel/studentRoster" target="_blank" rel="noopener noreferrer" class="projectLink" id="RPG"><strong>See Code on GitHub</strong></a>
+            </div>
+            <div class="projectContainer">
+                <h3 class="projectHeader">Package Delivery Algorithm - Python</h3>
+                <p class="projectDescription">
+                    <strong>Description: </strong>
+                    This was a project that I made for my Data Structures and Algorithms class. <br>
+                    I was learned so much from making this project particularly in data science. <br>
+                    Before I made this project I had not worked with CSV files before this nor <br>
+                    had I parsed data that was comma deliminated. I am very proud of my implementation <br>
+                    of a greedy sorting algorithm that allowed me to discover a reasonably efficient way <br>
+                    to deliver all 40 packages to all 27 address with all of the special instructions on <br>
+                    the packages. This was also pivotal in my understanding of programming in Python.
+                </p>
+                <a href="https://github.com/jacassel/package-delivery" target="_blank" rel="noopener noreferrer" class="projectLink" id="package"><strong>See Code on GitHub</strong></a>
+            </div>
+            <div class="projectContainer">
+                <h3 class="projectHeader">DVD Store Manager - SQL</h3>
+                <p class="projectDescription">
+                    <strong>Description: </strong>
+                    My three database management classes culminated in this project where I <br>
+                    worked with a sample database located in PostGre SQL. I was supposed to <br>
+                    visualize myself as a DVD store manager and answer business questions that <br>
+                    would be relevant to the store using this database. This project taught me <br>
+                    what it is like to work on the backend with an SQL database as well as how <br>
+                    to answer business questions using simulated customer data. 
+                </p>
+                <a href="https://github.com/jacassel/DVD_database" target="_blank" rel="noopener noreferrer" class="projectLink" id="DVD"><strong>See Code on GitHub</strong></a>
+            </div>
+            <div class="projectContainer">
+                <h3 class="projectHeader">Calculator - Python</h3>
+                <p class="projectDescription">
+                    <strong>Description: </strong>
+                    This is a much simpler project that I made in Python but it is a significant <br>
+                    project for me. I was just starting to transition into pursuit of a career in <br>
+                    software development and had just finished watching most of a Python tutorial <br>
+                    I made this project to prove to myself that I could make solid software and I am <br>
+                    including it to remind myself how far I have come in my journey.
+                </p>
+                <a href="https://github.com/jacassel/Python-Calculator" target="_blank" rel="noopener noreferrer" class="projectLink" id="calculator"><strong>See Code on GitHub</strong></a>
+            </div>
+            <div class="projectContainer">
+                <h3 class="projectHeader">Battleship - HTML & JavaScript</h3>
+                <p class="projectDescription">
+                    <strong>Description: </strong>
+                    In the same vein of the Calculator project that I included, this is a legacy <br>
+                    project that was from when I took a programming class during my time <br>
+                    at Cairn University. I was planning on going into vocational Christian ministry <br>
+                    but later pivoted into software development. I never finished this project, but <br>
+                    it is a functioning model where the carrier ship can be placed and the boards can <br>
+                    record shots that are fired during the game. I had a ton of fun working on this project <br>
+                    and I am not sure I would have decided pursuing on software engineering without making this.
+                </p>
+                <a href="https://github.com/jacassel/Battleship" target="_blank" rel="noopener noreferrer" class="projectLink" id="battleship"><strong>See Code on GitHub</strong></a>
+            </div>
+        </section>
+        <section id="threeReasonsGrid">
+            <div class="reasons" id="mySkills">
+                <h2 class="threePillerTitle">My Skills</h2>
+                <p class="threePillers">
+                    <strong>I have extensive experience in: <br></strong> 
+                    HTML <br>
+                    CSS <br>
+                    Python <br>
+                    C++ <br>
+                    <strong>I also have experience in: <br></strong>
+                    JavaScript <br>
+                    SQL <br>
+                    Java <br>
+                    Version Control e. g. GitHub and Git
+                </p>
+            </div>
+            <div class="reasons" id="myStory">
+                <h2 class="threePillerTitle">My Story</h2>
+                <p class="threePillers" id="myStoryText">
+                    As I was first starting my journey of discovering my career plan. <br>
+                    I went to college at Cairn University studying pastoral ministries <br>
+                    and I planned to go into vocational ministry. I started a minor in <br>
+                    computer science and I loved the Intro to Computer Science class that I <br>
+                    took. I quickly realized that pursuing both pastoral ministries and computer <br>
+                    science would be too much. After graduating Cairn University in 2023 I pivoted <br>
+                    into software development and started my degree at WGU in February of 2024. <br>
+                    This transition reignited my love of coding and I have been able to channel <br>
+                    my passion for serving the Lord into volunteer ministry at church. I am <br>
+                    more excited then ever to dive into software development. I currently work <br>
+                    at Whole Foods in the bakery and my favorite part of that job is the <br>
+                    creativity that I am able to cultivate which is why I plan to specialize <br>
+                    in <b>front-end web development.</b>
+                </p>
+            </div>
+            <div class="reasons" id="myPassion">
+                <h2 class="threePillerTitle">My Passion</h2>
+                <p class="threePillers">
+                    I love making clean code that is neatly organized and extremely efficient <br>
+                    I love solving complex problems using simple elegant solutions <br>
+                    I love how coding is full of creative problem solving with an ever expanding set of tools<br>
+                    I love when the work of debugging is done and seeing a project run well <br>
+                    <b id="missionStatement">I love that I can get paid to do this and am driven to make it a reality</b>
+                </p>
+            </div>
         </section>
     </body>
 </html>
