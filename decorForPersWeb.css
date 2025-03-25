@@ -21,6 +21,10 @@
     margin-bottom: 30px;
 }
 
+#keyPhrase {
+    color: crimson;
+}
+
 #titleName {
     color:orange;
     font-size: 30px;
@@ -37,6 +41,10 @@
     margin-bottom: 30px;
 }
 
+#myProjects {
+    color: blue;
+}
+
 #projectGrid > div {
     text-align: center;
     border: 3px solid orange;
@@ -45,6 +53,10 @@
 
 .projectDescription {
     text-align: left;
+}
+
+.projectHeader {
+    color: blue;
 }
 
 #titleProject {
@@ -59,6 +71,34 @@
     margin-bottom: 30px;
 }
 
-#myStoryText {
+#myStoryTextFirst {
     text-indent: 40px;
+}
+
+#myStoryTextSecond {
+    text-indent: 40px;
+}
+
+#myPassionParagraph {
+    margin-top: -200px;
+}
+
+#myStory {
+    color: orange;
+}
+
+#myPassion {
+    color: blueviolet;
+}
+
+#mySkills {
+    color: blue;
+}
+
+#missionStatement {
+    color: red;
+}
+
+.iLove {
+    color: blue;
 }
