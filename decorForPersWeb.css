@@ -1,0 +1,116 @@
+.contactLink {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#phone {
+    display: none; /* Hidden by default */
+}
+
+@media (max-width: 768px) { /* Common breakpoint for phones */
+    #phone {
+        display: inline;
+    }
+}
+
+#thesis {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 30px;
+}
+
+#keyPhrase {
+    color: crimson;
+}
+
+#titleName {
+    color:orange;
+    font-size: 30px;
+}
+
+#introDescription {
+    font-size: large;
+}
+
+#projectGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    margin-bottom: 30px;
+}
+
+#myProjects {
+    color: blue;
+}
+
+#projectGrid > div {
+    text-align: center;
+    border: 3px solid orange;
+    padding: 20px;
+}
+
+.projectDescription {
+    text-align: center;
+}
+
+.descript {
+    text-align: center;
+}
+
+.projectHeader {
+    color: blue;
+}
+
+#titleProject {
+    grid-column: span 2;
+    color: black;
+}
+
+#threeReasonsGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin-bottom: 30px;
+}
+
+.threePillers {
+    text-align: center;
+}
+
+.threePillerTitle {
+    text-align: center;
+}
+
+#myStoryTextFirst {
+    text-indent: 40px;
+}
+
+#myStoryTextSecond {
+    text-indent: 40px;
+}
+
+#myPassionParagraph {
+    margin-top: -200px;
+}
+
+#myStory {
+    color: orange;
+}
+
+#myPassion {
+    color: blueviolet;
+}
+
+#mySkills {
+    color: blue;
+}
+
+#missionStatement {
+    color: red;
+}
+
+.iLove {
+    color: blue;
+}
